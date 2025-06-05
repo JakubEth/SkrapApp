@@ -1,15 +1,54 @@
+# Android/IntelliJ
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.gradle/
+.local.properties
+/.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Build
+/build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Keystore/credentials
+*.keystore
+*.jks
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*.lock
+*.hprof
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Binaries
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+.idea/
